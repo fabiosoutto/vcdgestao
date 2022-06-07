@@ -18,9 +18,9 @@
 }
 
 header{
-    background-color: #124268;
+    background-color: #a7523d;
     /*padding: 20px 0;*/
-    border-bottom: 1px solid #2692d7;
+    border-bottom: 1px solid #9d9d9c;
 }
 
 .cabecalho{
@@ -53,7 +53,8 @@ header{
 
 .icons a i:hover{
     color: white;
-    background-color: #2692d7;
+    background-color: #a7523d;
+    transition: all 0.4s;
 }
 
 .email{
@@ -81,7 +82,7 @@ header{
 
 .email a i:hover{
     color: white;
-    background-color: #2692d7;
+    background-color: #a7523d;
 }
 
 .logo img{
@@ -110,7 +111,7 @@ header{
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #124268;
+    background-color: #a7523d;
     color: #fff;
     transition: 0.4s;
 }
@@ -125,7 +126,7 @@ header{
 }
 
 .menu a:hover{
-    background-color: #2692d7;
+    background-color: #9d9d9c;
     color: #fff;
     border-radius: 7%;
 }
@@ -148,7 +149,7 @@ header{
     width: 100%;
     text-align: center;
     background-color: white;
-    border-bottom: 2px solid #2692d7;
+    border-bottom: 2px solid #9d9d9c;
     display: block;
     opacity: 0;
     transition: 1s;
@@ -171,11 +172,11 @@ header{
     font-size: 18px;
     display: block;
     text-decoration: none;
-    color: #2692d7;
+    color: #a7523d;
 }
 
 .menu-itens a:hover{
-    background-color: #2692d7;
+    background-color: #9d9d9c;
     color: white;
 }
 
@@ -247,7 +248,7 @@ section.main{
 }
 
 .item2-mosaico{
-	background-color: #124268;
+	background-color: #a7523d;
 	padding: 60px 40px;
 	width: 40%;
 }
@@ -317,15 +318,15 @@ section.sobre-container .sobre-wraper2{
 
 .vitor{
     position: absolute;
-    left: 50px;
-    top: 480px;
+    left: 20px;
+    top: 500px;
     text-align: center;
 }
 
 section.sobre-container .img-sobre{
-	width: 40%;
-	height: 60%;
-	background-image: url('../img/vcdutra4.JPG');
+	width: 305px;
+	height: 400px;
+	background-image: url('../img/vitor-dutra.jpeg');
 	background-size: 100% 100%;
 }
 
@@ -335,7 +336,7 @@ section.sobre-container .texto-sobre{
 }
 
 section.sobre-container .texto-sobre h2{
-	color: #124268;
+	color: #a7523d;
 	font-size: 18px;
     font-weight: bold;
 }
@@ -345,7 +346,7 @@ section.sobre-container .texto-sobre h2{
 }
 
 section.sobre-container .texto-sobre p{
-	color: #124268;
+	color: #a7523d;
 	font-size: 15px;
 	line-height: 25px;
 	margin-top: 8px;
@@ -354,12 +355,12 @@ section.sobre-container .texto-sobre p{
 /* ====================== section legislação ==================   */
 
 #legislacao{
-    background-color: #124268;
-    border-bottom: 1px solid #2692d7;
+    background-color: #a7523d;
+    border-bottom: 1px solid #9d9d9c;
 }
 
 .legislacao .accordion button{
-    background: #2692d7;
+    background: #a7523d;
     padding: 1.1rem 2.2rem 1.1rem 1.2rem;
     width: 100%;
     border: 0;
@@ -383,7 +384,7 @@ section.sobre-container .texto-sobre p{
 }
 
 .legislacao .accordion .card-body{
-    background: #2692d7;
+    background: #9d9d9c;
     color: #fff;
     font-size: 1.225rem;
     white-space: pre-line;
@@ -400,7 +401,7 @@ section.sobre-container .texto-sobre p{
 #container {
 	position: relative;
 	overflow: hidden;
-    background-color: #124265;
+    background-color: #a7523d;
     padding-top: 20px;
 }
 
@@ -432,7 +433,7 @@ section.sobre-container .texto-sobre p{
 /* ============== section contato =================  */
 
 section.contato{
-	background-color: #124268;
+	background-color: #a7523d;
 	padding: 50px 0;
 }
 
@@ -466,7 +467,7 @@ section.contato{
 	height: 58px;
 	padding-left: 8px;
 	line-height: 58px;
-	border: 1px solid rgb(200,200,200);
+	border: 1px solid #9d9d9c;
     border-radius: 10px; 
 }
 
@@ -475,14 +476,14 @@ section.contato{
 	max-width: 480px;
 	margin-top: 8px;
 	padding: 15px;
-	border: 1px solid rgb(200,200,200);
+	border: 1px solid #9d9d9c;
 	height: 160px;
     border-radius: 10px;
 }
 
 .form form input[type=submit]{
 	border: 0;
-	background-color: #ffcc00;
+	background-color: #9d9d9c;
 	width: 165px;
 	height: 44px;
 	font-size: 16px;
@@ -493,7 +494,8 @@ section.contato{
 }
 
 .form form input[type=submit]:hover{
-    background-color: #2692d7;
+    background-color: #000;
+    color: white;
 }
 
 .contato2{
@@ -527,7 +529,7 @@ section.contato{
 	height: 50px;
 	width: 50px;
 	color: #ccc;
-	background: #124268;
+	background: #000;
 	border: none;
 	border-radius: 50vh;
     border: 1px solid #fff;
@@ -537,7 +539,7 @@ section.contato{
 }
 
 #btntop:hover{
-    background: #2692d7;
+    background: #9d9d9c;
     color: #fff;
     transition: all 0.4s;
 }
@@ -561,7 +563,8 @@ footer p:nth-of-type(2){
 }
 
 footer a i:hover{
-    background-color: #2692d7;
+    background-color: #a7523d;
+    font-size: 1rem;
 }
 
 section.marca{
@@ -601,10 +604,9 @@ section.marca h2{
         width: 30px;
         height: 30px;
         cursor: pointer;
-        margin-top: 5px;
+        margin-top: 20px;
         margin-right: 5px;
-        top: 45px;
-        right: 15px;
+        
     }
     .menu-mobile a{
         text-align: center;
@@ -650,21 +652,21 @@ section.marca h2{
 		display: inline-block;
 	}
 	section.sobre-container .img-sobre{
-		width: 60%;
+		width: 305px;
+        height: 400px;
 		padding-top: 60%;
 		display: inline-block;
-		height: auto;
 	}
     .vitor{
-        font-size: 0.7rem;
-        left: 77px;
-        top: 200px;
+        font-size: 1rem;
+        left: 97px;
+        top: 400px;
     }
 	section.sobre-container .texto-sobre{
 		display: inline-block;
 		text-align: left;
 		width: 100%;
-		padding: 30px 30px;
+		padding: 50px 30px;
 	}
     .legislacao {
         padding: 0;
@@ -690,14 +692,14 @@ section.marca h2{
         height: 350px;
     }
     #container .content {
-        top: 250px;
-        left: 20px;
+        top: 180px;
+        left: 5px;
     }
     .content h2 {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .content p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     section.contato .container{
 		text-align: center;
@@ -716,10 +718,10 @@ section.marca h2{
 		padding:0 8%;
 		margin-top:40px;
 	}
-	.contato2 .conecte-se{
+    .contato2 .conecte-se{
         width: 100%;
-    	}
-    	footer{
+    }
+    footer{
 		text-align: center;
         margin: 0;
         padding: 20px 10px;
@@ -731,6 +733,9 @@ section.marca h2{
 		float: none;
 		margin-top: 8px;
 	}
+    footer a i{
+        font-size: 2rem;
+    }
     #btntop{
         bottom: 70px;
         right: 20px;
