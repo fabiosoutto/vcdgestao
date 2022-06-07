@@ -716,7 +716,10 @@ section.marca h2{
 		padding:0 8%;
 		margin-top:40px;
 	}
-    footer{
+	.contato2 .conecte-se{
+        width: 100%;
+    	}
+    	footer{
 		text-align: center;
         margin: 0;
         padding: 20px 10px;
