@@ -1,3 +1,3 @@
 # VCD Gestão de Condomínios
 
-Site comercial link temporário - https://fabiosoutto.github.io/vcdgestao
+Site comercial link temporário - https://vcdgestao.vercel.app
