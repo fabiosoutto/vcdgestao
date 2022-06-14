@@ -1,3 +1,3 @@
 # VCD Gestão de Condomínios
 
-Site comercial link temporário - https://vcdgestao.vercel.app
+Site - https://vcdgestao.vercel.app
