@@ -202,6 +202,19 @@ section.main {
     /* efeito Paralax  */
 }
 
+section.lgpd {
+    background-image: url('../img/poa4.jpg');
+    padding: 120px 0;
+    background-position: center;
+    background-size: cover;
+    /* responsivo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* efeito Paralax  */
+}
+
+
+
 .main-cta {
     width: 50%;
     margin: 20px 0;
